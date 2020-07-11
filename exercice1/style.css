@@ -86,20 +86,27 @@ ul.top_menu {
   float: left;
   font-size: 1.5rem;
 }
-
+.news{
+  height: 200px;
+  background-color: #FCE8E7;
+  padding: 20px;
+  overflow: scroll;
+  line-height: 2;
+}
 .footer{
   width: 100%;
   height: 100px;
   position: absolute;
   bottom: 0;
-  background-color: #4D4D4D;
+  background-color:#4D4D4D;
   display: table;
 }
 .footer p {
-
+  font-size: 1rem;
   color: #fff;
   text-align: center;
-
+  vertical-align: middle;
+  display: table-cell;
 }
 .clearfix:after {
   content: "";
