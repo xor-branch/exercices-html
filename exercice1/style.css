@@ -3,7 +3,7 @@ html {
   height: 100%;
 }
 body {
-  height: 100%;
+  height:100%;
 }
 .container {
   width: 980px;
@@ -64,6 +64,13 @@ ul.top_menu {
 .side_menu li:hover{
   opacity: 0.6;
 }
+.side_menu .point{
+  background-color:#FCECEC;
+}
+.side_menu.point a{
+  color: #4D4D4D;
+}
+
 .banner a:hover {
   opacity: 0.6;
 }
@@ -86,9 +93,11 @@ ul.top_menu {
   float: left;
   font-size: 1.5rem;
 }
+/*page business*/
 .content img {
   width:100%;
 }
+/*page home*/
 .news{
   height: 200px;
   background-color: #FCE8E7;
@@ -116,9 +125,39 @@ ul.top_menu {
   display: block;
   clear: both;
 }
-.point{
-  background-color:#FCECEC;
+/*formulaire de contact*/
+#name {
+  margin-left: 40px;
+  width: 480px;
 }
-.point a{
-  color: #4D4D4D;
+#prenom {
+  margin-left: 40px;
+  width: 480px;
+}
+
+#sexe{
+  margin-left: 40px;
+}
+#comment{
+  margin-left:40px;
+  width: 480px;
+  height: 70px;
+}
+.form table td label {
+  width: 150px;
+  height: 7rem;
+  font-weight: bold;
+}
+.form{
+  margin-left: 30px;
+}
+.submit{
+  background-color: blue;
+  width: 100px;
+  margin-left: 45%;
+
+}
+.submit:hover{
+  opacity: 0.5;
+  color:white;
 }
